@@ -19,7 +19,9 @@ export default function Landing() {
         <button
           onClick={() => navigate("/register")}
           className="w-full h-[46px] rounded-md bg-[#6C25FF]
-                     text-white text-[16px] font-medium mb-3"
+                     text-white text-[16px] font-medium mb-3
+                     hover:bg-[#5b1ce6] transition-all duration-200 cursor-pointer
+                     active:scale-[0.98] hover:shadow-md"
         >
           Create Account
         </button>
@@ -27,7 +29,9 @@ export default function Landing() {
         <button
           onClick={() => navigate("/login")}
           className="w-full h-[46px] rounded-md
-                     text-[#1d2226] text-[16px] font-medium"
+                     text-[#1d2226] text-[16px] font-medium
+                     hover:bg-[rgba(108,37,255,0.38)] transition-all duration-200 cursor-pointer
+                     active:scale-[0.98] hover:shadow-md"
           style={{
             backgroundColor: "rgba(108, 37, 255, 0.29)",
           }}

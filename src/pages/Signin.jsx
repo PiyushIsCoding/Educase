@@ -80,10 +80,10 @@ export default function Signin() {
 
       <button
         onClick={() => active && navigate("/account")}
-        className={`w-full h-[46px] rounded-md text-white text-[16px] font-medium transition-all
+        className={`w-full h-[46px] rounded-md text-white text-[16px] font-medium transition-all duration-200
           ${active
-            ? "bg-[#6C25FF]"
-            : "bg-[#CBCBCB]"
+            ? "bg-[#6C25FF] hover:bg-[#5b1ce6] hover:shadow-md cursor-pointer active:scale-[0.98]"
+            : "bg-[#CBCBCB] cursor-not-allowed opacity-80"
           }`}
       >
         Login

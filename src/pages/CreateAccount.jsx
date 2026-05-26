@@ -147,7 +147,9 @@ export default function RegisterPage() {
         <button
           onClick={() => navigate("/account")}
           className="w-full h-[46px] rounded-md bg-[#6C25FF]
-                     text-white text-[16px] font-medium"
+                     text-white text-[16px] font-medium
+                     hover:bg-[#5b1ce6] hover:shadow-md cursor-pointer
+                     transition-all duration-200 active:scale-[0.98]"
         >
           Create Account
         </button>
