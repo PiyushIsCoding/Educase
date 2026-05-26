@@ -3,7 +3,6 @@ import ellipseImage from "../assets/Ellipse.png";
 export default function Profile() {
   return (
     <div className="h-full bg-[#f7f7f7] flex flex-col">
-      {/* Header */}
       <div
         className="bg-white px-5 pt-6 pb-5"
         style={{
@@ -15,7 +14,6 @@ export default function Profile() {
         </h1>
       </div>
 
-      {/* Profile */}
       <div className="px-5 pt-7">
         <div className="flex items-center gap-4">
           <div className="relative">

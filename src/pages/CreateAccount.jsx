@@ -40,7 +40,7 @@ function FloatingInput({
   );
 }
 
-export default function RegisterPage() {
+export default function CreateAccount() {
   const navigate = useNavigate();
   const [form, setForm] = useState({
     fullName: "",

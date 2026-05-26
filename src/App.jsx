@@ -1,7 +1,7 @@
 import { Routes, Route } from "react-router-dom";
 import Landing from "./pages/Landing";
 import Signin from "./pages/Signin";
-import RegisterPage from "./pages/CreateAccount";
+import CreateAccount from "./pages/CreateAccount";
 import Profile from "./pages/Profile";
 
 export default function App() {
@@ -21,7 +21,7 @@ export default function App() {
 
           <Route
             path="/register"
-            element={<RegisterPage />}
+            element={<CreateAccount />}
           />
 
           <Route
